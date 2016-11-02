@@ -1,46 +1,47 @@
-## Access for current Squiiz APIs is needed:
+## Access for two Squiiz APIs is needed as following:
 
-- /getListingbyID/
-- /suburb/
+**/getListingbyID/**
+**/suburb/**
 
+## More information needs to be provided:
 
-## More information formatted needed in Apis which to be developed:
+**/agents or ( /agents/ids with /agents/{id} )**
+>return all available agents with Agent columns (Including officeId)
 
-### /getAgents/ or ( /getAgentIds/ with /getAgentById/ )
-#### return all available agents with Agent columns (Including officeId)
+**/offices or ( /offices/ids with /offices/{id})**
+>return all available offices with Office columns
 
-### /getOffices/ or ( /getOfficeIds/ with /getOfficeById/ )
-#### return all available offices with Office columns
+**/streetType (optional)**
+>return all available streetTypes formatted
 
-### /streetType/ (optional)
-#### return all available streetTypes formatted
-
-### /propertyType/ (optional)
-#### return all available propertyTypes formatted
-
-
-## More field of Listing Format needed if available
-
-### Open Homes Information
-#### eg: openHomeDates, isOpenHome
-
-### floorArea rather than landSize
-
-### listAt
-#### the date when the listings be published
-
-### listNo
-#### the listing number from agency
-
-### videoUrl
-
-### externalUrl
-#### a link to this listing on the agency website
-
-### yearBuilt
-#### the year of construction
+**/propertyType (optional)**
+>return all available propertyTypes formatted
 
 
-## We will provide you with a HTTP API used for accept listing post / update action:
-### Please call this API to transfer the updated information of listings when there is a new listing published or field values changed.
-### You may put the JSON / XML formatted data accordding to the REA format or Squiiz Listing Format into post body.
+## More fields of Listing Format are needed if available
+
+**Open Homes Information**
+>eg: openHomeDates, isOpenHome
+
+**floorArea**
+
+**listAt**
+>the date when the listing is published
+
+**listNo**
+>the listing number from agency
+
+**videoUrl**
+
+**externalUrl**
+>link of this listing on the agency website
+
+**yearBuilt**
+>year of construction
+
+## We will provide you with a post interface used for receiving listings:
+>Please call this API to transfer the updated information of listings when there are new listings published or changed.
+>You may put JSON / XML formatted data according to the REA format or Squiiz Listing Format in the body.
+
+## Questions
+**Is there any other value of listingType not including Purchase and Lease?** 
