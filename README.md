@@ -1,7 +1,7 @@
-## Access for current Squiiz APIs needed:
+## Access for current Squiiz APIs is needed:
 
-### /getListingbyID/
-### /suburb/
+- /getListingbyID/
+- /suburb/
 
 
 ## More information formatted needed in Apis which to be developed:
