@@ -1,9 +1,9 @@
-## Access for two Squiiz APIs is needed as following:
+## Access for two Squiiz APIs is needed as following
 
 **/getListingbyID/**
 **/suburb/**
 
-## More information needs to be provided:
+## More information needs to be provided
 
 **/agents or ( /agents/ids with /agents/{id} )**
 >return all available agents with Agent columns (Including officeId)
@@ -39,7 +39,7 @@
 **yearBuilt**
 >year of construction
 
-## We will provide you with a post interface used for receiving listings:
+## We will provide you with a post interface used for receiving listings
 >Please call this API to transfer the updated information of listings when there are new listings published or changed.
 >You may put JSON / XML formatted data according to the REA format or Squiiz Listing Format in the body.
 
