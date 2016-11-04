@@ -21,4 +21,5 @@
 
 ## Questions
 **1. Is there any other value of listingType not including Purchase and Lease?**
+
 **2. Please add two parameters (updateAfter, listAfter) in the query of API named "/listing/" or "/search/" to fetch new listings or updated listings. Otherwise we need to fetch the whole database on daily basis.**
