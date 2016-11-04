@@ -19,6 +19,19 @@
 >year of construction
 
 
+## We need more interfaces to fetch data
+
+**1. An interface to get all available agents with formatted data
+
+**2. An interface to get all available offices with formatted data
+
+**3. An interface to get all available Municipalities with formatted data just as the API named "/suburb/"
+
+**4. An interface to get all property types such as House, Unit, Flat... with their slugs
+
+**5. An interface to get all street types such as Avenue, Road, Lane... with their slugs
+
+
 ## Questions
 **1. Is there any other value of listingType not including Purchase and Lease?**
 
