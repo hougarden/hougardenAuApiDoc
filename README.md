@@ -1,25 +1,24 @@
 ## We need more fields of Listing Format are needed if available
 
-**Open Homes Information**
+**1. Open Homes Information**
 >eg: openHomeDates, isOpenHome
 
-**floorArea**
+**2. floorArea**
 
-**listNo or uniqueId**
+**3. listNo or uniqueId**
 >the listing number from agency
 
-**videoLink**
+**4. videoLink**
 
-**externalLink**
+**5. externalLink**
 >link of this listing on the agency website
 
-**soldDate soldPrice soldDetails**
+**6. soldDate soldPrice soldDetails**
 
-**yearBuilt**
+**7. yearBuilt**
 >year of construction
 
 
 ## Questions
-**Is there any other value of listingType not including Purchase and Lease?**
-
-**Please add two parameters (updateAfter, listAfter) in the query of API named "/listing/" or "/search/" to fetch new listings or updated listings. Otherwise we need to fetch the whole database on daily basis.**
+**1. Is there any other value of listingType not including Purchase and Lease?**
+**2. Please add two parameters (updateAfter, listAfter) in the query of API named "/listing/" or "/search/" to fetch new listings or updated listings. Otherwise we need to fetch the whole database on daily basis.**
